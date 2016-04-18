@@ -1,0 +1,19 @@
+package pers.ethan.socketserver;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class MyInetAddress {
+
+	public static void main(String[] args) {
+		try {
+			InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
+			
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

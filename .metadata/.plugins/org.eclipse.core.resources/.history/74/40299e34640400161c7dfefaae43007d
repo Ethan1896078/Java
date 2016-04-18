@@ -1,0 +1,5 @@
+package pers.ethan.socketserver;
+
+public class PO {
+	private int a;
+}

@@ -1,0 +1,11 @@
+package pers.ethan.socketserver;
+
+import java.net.InetAddress;
+
+public class MyInetAddress {
+
+	public static void main(String[] args) {
+		InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
+	}
+
+}

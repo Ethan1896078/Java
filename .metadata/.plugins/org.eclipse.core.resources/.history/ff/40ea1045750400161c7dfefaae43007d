@@ -1,0 +1,20 @@
+package pers.ethan.socketserver;
+
+import java.io.Serializable;
+
+public class Shop implements Serializable{
+	private ShopMaster shopMaster;
+
+	public ShopMaster getShopMaster() {
+		return shopMaster;
+	}
+
+	public void setShopMaster(ShopMaster shopMaster) {
+		this.shopMaster = shopMaster;
+	}
+	
+	public static void main(String args[]){
+		
+	}
+	
+}

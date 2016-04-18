@@ -1,0 +1,20 @@
+package pers.ethan.socketserver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class MyURL {
+
+	public static void main(String[] args) {
+		try {
+			URL url = new URL("http://www.baidu.com/s?wd=旅游");
+			URLConnection urlConnection = url.openConnection();
+			System.out.println(urlConnection.getContent());
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

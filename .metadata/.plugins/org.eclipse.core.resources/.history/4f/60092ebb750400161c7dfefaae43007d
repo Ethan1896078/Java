@@ -1,0 +1,48 @@
+package pers.ethan.socketserver;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public class Shop implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3929874464784178981L;
+	private ShopMaster shopMaster;
+
+	public ShopMaster getShopMaster() {
+		return shopMaster;
+	}
+
+	public void setShopMaster(ShopMaster shopMaster) {
+		this.shopMaster = shopMaster;
+	}
+	
+	public static void main(String args[]){
+		Shop shop1 = new Shop()
+	}
+	
+	public static Object deepCopy(Shop shop){
+		byte[] bytes = seriliaze(shop);
+		Object object = deseriliaze(bytes);
+		
+	}
+	
+	public static byte[] seriliaze(Object object) throws IOException{
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(object);
+        return baos.toByteArray();
+    }
+	
+	public static Object deseriliaze(byte[] byteArray) throws IOException, ClassNotFoundException{
+        ByteArrayInputStream bais = new ByteArrayInputStream(byteArray);
+        ObjectInputStream ois = new ObjectInputStream(bais);
+        return ois.readObject();
+    }
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;socket&apos; in &apos;pers.ethan.socketserver.App.main(...)&apos; to &apos;server&apos;&#x0A;- Original project: &apos;SocketServer&apos;&#x0A;- Original element: &apos;pers.ethan.socketserver.App.main(String[]).socket&apos;&#x0A;- Renamed element: &apos;socket&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;socket&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;pers.ethan.socketserver{App.java[App~main~\[QString;@socket!277!303!290!295!QServerSocket;!0!false" name="server" references="true" stamp="1459662462028" version="1.0"/>
+</session>

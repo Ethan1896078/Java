@@ -1,0 +1,9 @@
+package pers.ethan.socketserver;
+
+public class MyURL {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package pers.ethan.socketserver;
+
+public class Shop {
+	private ShopMaster shopMaster;
+
+	public ShopMaster getShopMaster() {
+		return shopMaster;
+	}
+
+	public void setShopMaster(ShopMaster shopMaster) {
+		this.shopMaster = shopMaster;
+	}
+	
+}

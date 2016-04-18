@@ -1,0 +1,7 @@
+package pers.ethan.socketserver;
+
+import java.io.Serializable;
+
+public class ShopMaster implements Serializable {
+
+}
