@@ -11774,3 +11774,9 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-05-05 11:47:46.535
+!MESSAGE Unable to add pers/ethan/httpclient/HttpClient/0.0.1-SNAPSHOT/HttpClient-0.0.1-SNAPSHOT.pom
+
+!ENTRY org.eclipse.core.resources 4 567 2016-05-05 11:47:58.260
+!MESSAGE The project description file (.project) for 'Thread' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
