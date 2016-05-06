@@ -1,4 +1,6 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>add &quot;hello java&quot;</message>\n<message>first</message>\n</messages>
+//BranchProjectTracker__/Users/huangzhe/Documents/MyCode/Study/Java/.git_Thread_20160505=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="Thread_20160505">\n<project>/HttpClient</project>\n<project>/IO</project>\n<project>/RemoteSystemsTempFiles</project>\n<project>/SocketClient</project>\n<project>/SocketServer</project>\n</projects>
+//BranchProjectTracker__/Users/huangzhe/Documents/MyCode/Study/Java/.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="master">\n<project>/HttpClient</project>\n<project>/IO</project>\n<project>/RemoteSystemsTempFiles</project>\n<project>/SocketClient</project>\n<project>/SocketServer</project>\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>1</message>\n<message>\u63D0\u4EA4\u5E76\u63A8\u9001\u6574\u4E2AThread\u9879\u76EE</message>\n<message>\u5C06Thread\u5DE5\u7A0B\u7684App.java Commit</message>\n<message>first</message>\n<message>add &quot;hello java&quot;</message>\n</messages>
 eclipse.preferences.version=1
 resourcehistory_graph_split=500,500
 resourcehistory_rev_split=700,300
