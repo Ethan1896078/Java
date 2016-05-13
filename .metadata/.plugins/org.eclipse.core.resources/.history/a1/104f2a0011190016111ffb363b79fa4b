@@ -1,0 +1,6 @@
+package pers.ethan.callback;
+
+public interface Callback {
+	public void callbackMethod(int
+			result);
+}

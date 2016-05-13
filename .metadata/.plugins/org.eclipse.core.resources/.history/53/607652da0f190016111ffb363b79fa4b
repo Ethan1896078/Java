@@ -1,0 +1,9 @@
+package pers.ethan.callback;
+
+public class Caller implements Callback{
+
+	public void callbackMethod(String result) {
+		
+	}
+
+}

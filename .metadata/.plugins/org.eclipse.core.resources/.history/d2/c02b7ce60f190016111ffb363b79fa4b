@@ -1,0 +1,10 @@
+package pers.ethan.callback;
+
+public class Caller implements Callback{
+
+	@Override
+	public void callbackMethod(String result) {
+		
+	}
+
+}

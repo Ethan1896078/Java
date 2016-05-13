@@ -1,0 +1,15 @@
+package pers.ethan.callback;
+
+public class Callee {
+	// 关键点之一，被调对象中必须有一个主调对象的引用
+	private Callback caller;
+	
+	public void setCaller(Callback caller) {
+		this.caller = caller;
+	}
+
+	public void add(int a, int b){
+		int result = a + b;
+		caller.callbackMethod(result);
+	}
+}

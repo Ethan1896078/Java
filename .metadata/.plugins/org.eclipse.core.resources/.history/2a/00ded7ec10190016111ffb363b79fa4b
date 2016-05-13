@@ -1,0 +1,9 @@
+package pers.ethan.callback;
+
+public class Caller implements Callback{
+
+	public void callbackMethod(int result) {
+		System.out.println("the anwser is " + result);
+	}
+
+}
