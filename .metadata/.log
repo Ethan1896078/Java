@@ -7152,3 +7152,250 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2016-05-18 16:29:21.007 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/huangzhe/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/huangzhe/.eclipse_keyring -showlocation
+
+!ENTRY com.ibh.systems.build.base 4 0 2016-05-18 16:29:25.372
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.ibh.systems.build.base [846]
+  Unresolved requirement: Import-Package: org.slf4j; version="1.6.0"
+    -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+       slf4j.api [853]
+         No resolution report for the bundle.  Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+    -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+       org.openscada.ui.utils [851]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+           -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+              org.openscada.utils [852]
+                Unresolved requirement: Import-Package: org.slf4j; version="[1.5.0,1.7.0)"
+                  -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.utils.concurrent; version="1.0.0"
+           -> Export-Package: org.openscada.utils.concurrent; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+    -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"] because it exports package 'org.slf4j.spi' and is also exposed to it from resource org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"] via the following dependency chain:
+
+  slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"]
+    import: (&(osgi.wiring.package=org.slf4j.impl)(version>=1.6.0))
+     |
+    export: osgi.wiring.package: org.slf4j.impl; uses:=org.slf4j.spi
+    export: osgi.wiring.package=org.slf4j.spi
+  org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.ibh.systems.build.pde.rename 4 0 2016-05-18 16:29:25.404
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.ibh.systems.build.pde.rename [847]
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+  Unresolved requirement: Require-Bundle: org.openscada.ui.databinding; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.openscada.ui.databinding; bundle-version="1.0.0.201303051459"
+       org.openscada.ui.databinding [850]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+              slf4j.api [853]
+                No resolution report for the bundle.         Unresolved requirement: Import-Package: org.openscada.utils.str; version="1.0.0"
+           -> Export-Package: org.openscada.utils.str; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"; uses:="org.openscada.utils.lang"
+              org.openscada.utils [852]
+                Unresolved requirement: Import-Package: org.slf4j; version="[1.5.0,1.7.0)"
+                  -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+  Unresolved requirement: Require-Bundle: com.ibh.systems.build.base; bundle-version="0.4.2"
+    -> Bundle-SymbolicName: com.ibh.systems.build.base; bundle-version="0.5.2.201309301416"; singleton:="true"
+       com.ibh.systems.build.base [846]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.6.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+           -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+              org.openscada.ui.utils [851]
+                Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+                  -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+                Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+                  -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+                Unresolved requirement: Import-Package: org.openscada.utils.concurrent; version="1.0.0"
+                  -> Export-Package: org.openscada.utils.concurrent; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+         Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+           -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Require-Bundle: org.openscada.ui.utils; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.openscada.ui.utils; bundle-version="1.0.0.201303051459"; singleton:="true"
+  Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+    -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.ibh.systems.build.pde.version 4 0 2016-05-18 16:29:25.800
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.ibh.systems.build.pde.version [848]
+  Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+    -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+       org.openscada.utils [852]
+         Unresolved requirement: Import-Package: org.slf4j; version="[1.5.0,1.7.0)"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+              slf4j.api [853]
+                No resolution report for the bundle.  Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+    -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+       org.openscada.ui.utils [851]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+           -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+         Unresolved requirement: Import-Package: org.openscada.utils.concurrent; version="1.0.0"
+           -> Export-Package: org.openscada.utils.concurrent; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Require-Bundle: com.ibh.systems.build.base; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: com.ibh.systems.build.base; bundle-version="0.5.2.201309301416"; singleton:="true"
+       com.ibh.systems.build.base [846]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.6.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+           -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+         Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+           -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Import-Package: org.openscada.ui.databinding; version="1.0.0"
+    -> Export-Package: org.openscada.ui.databinding; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.databinding"; version="1.0.0"; uses:="org.eclipse.core.databinding.observable.set,  org.eclipse.ui.navigator,  org.eclipse.ui,  org.eclipse.ui.plugin,  org.eclipse.jface.viewers,  org.eclipse.swt.graphics,  org.osgi.framework,  org.eclipse.core.commands,  org.eclipse.swt.widgets"
+       org.openscada.ui.databinding [850]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.utils.str; version="1.0.0"
+           -> Export-Package: org.openscada.utils.str; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"; uses:="org.openscada.utils.lang"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"] because it exports package 'org.slf4j.spi' and is also exposed to it from resource org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"] via the following dependency chain:
+
+  slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"]
+    import: (&(osgi.wiring.package=org.slf4j.impl)(version>=1.6.0))
+     |
+    export: osgi.wiring.package: org.slf4j.impl; uses:=org.slf4j.spi
+    export: osgi.wiring.package=org.slf4j.spi
+  org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.ibh.systems.build.tycho.mavenize 4 0 2016-05-18 16:29:25.991
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.ibh.systems.build.tycho.mavenize [849]
+  Unresolved requirement: Import-Package: com.ibh.systems.build.base.ui; version="0.1.0"
+    -> Export-Package: com.ibh.systems.build.base.ui; bundle-version="0.5.2.201309301416"; bundle-symbolic-name="com.ibh.systems.build.base"; version="0.1.0"; uses:="org.eclipse.jface.wizard,  org.eclipse.jface.window,  org.eclipse.core.runtime,  org.eclipse.jface.viewers,  org.eclipse.swt.widgets,  org.eclipse.jface.dialogs"
+       com.ibh.systems.build.base [846]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.6.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+              slf4j.api [853]
+                No resolution report for the bundle.         Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+           -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+              org.openscada.ui.utils [851]
+                Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+                  -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+                Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+                  -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+                     org.openscada.utils [852]
+                       Unresolved requirement: Import-Package: org.slf4j; version="[1.5.0,1.7.0)"
+                         -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+                Unresolved requirement: Import-Package: org.openscada.utils.concurrent; version="1.0.0"
+                  -> Export-Package: org.openscada.utils.concurrent; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+         Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+           -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+    -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+  Unresolved requirement: Import-Package: com.ibh.systems.build.base.changes; version="0.1.0"
+    -> Export-Package: com.ibh.systems.build.base.changes; bundle-version="0.5.2.201309301416"; bundle-symbolic-name="com.ibh.systems.build.base"; version="0.1.0"; uses:="org.eclipse.jface.wizard,  org.eclipse.core.runtime,  org.eclipse.core.databinding.observable,  org.eclipse.core.databinding.observable.masterdetail,  org.eclipse.jface.viewers,  org.eclipse.swt.widgets,  org.eclipse.core.databinding.observable.list"
+  Unresolved requirement: Import-Package: org.openscada.utils; version="1.0.0"
+    -> Export-Package: org.openscada.utils; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"
+  Unresolved requirement: Import-Package: org.openscada.ui.utils.status; version="1.0.0"
+    -> Export-Package: org.openscada.ui.utils.status; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.utils"; version="1.0.0"; uses:="org.eclipse.core.runtime,org.openscada.utils"
+  Unresolved requirement: Import-Package: org.openscada.ui.databinding; version="1.0.0"
+    -> Export-Package: org.openscada.ui.databinding; bundle-version="1.0.0.201303051459"; bundle-symbolic-name="org.openscada.ui.databinding"; version="1.0.0"; uses:="org.eclipse.core.databinding.observable.set,  org.eclipse.ui.navigator,  org.eclipse.ui,  org.eclipse.ui.plugin,  org.eclipse.jface.viewers,  org.eclipse.swt.graphics,  org.osgi.framework,  org.eclipse.core.commands,  org.eclipse.swt.widgets"
+       org.openscada.ui.databinding [850]
+         Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+         Unresolved requirement: Import-Package: org.openscada.utils.str; version="1.0.0"
+           -> Export-Package: org.openscada.utils.str; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"; uses:="org.openscada.utils.lang"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"] because it exports package 'org.slf4j.spi' and is also exposed to it from resource org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"] via the following dependency chain:
+
+  slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"]
+    import: (&(osgi.wiring.package=org.slf4j.impl)(version>=1.6.0))
+     |
+    export: osgi.wiring.package: org.slf4j.impl; uses:=org.slf4j.spi
+    export: osgi.wiring.package=org.slf4j.spi
+  org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.openscada.ui.databinding 4 0 2016-05-18 16:29:26.267
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.openscada.ui.databinding [850]
+  Unresolved requirement: Import-Package: org.slf4j; version="1.5.0"
+    -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+       slf4j.api [853]
+         No resolution report for the bundle.  Unresolved requirement: Import-Package: org.openscada.utils.str; version="1.0.0"
+    -> Export-Package: org.openscada.utils.str; bundle-version="1.0.0.201303051453"; bundle-symbolic-name="org.openscada.utils"; version="1.0.0"; uses:="org.openscada.utils.lang"
+       org.openscada.utils [852]
+         Unresolved requirement: Import-Package: org.slf4j; version="[1.5.0,1.7.0)"
+           -> Export-Package: org.slf4j; bundle-version="1.6.4"; bundle-symbolic-name="slf4j.api"; version="1.6.4"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"] because it exports package 'org.slf4j.spi' and is also exposed to it from resource org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"] via the following dependency chain:
+
+  slf4j.api [osgi.identity; osgi.identity="slf4j.api"; type="osgi.bundle"; version:Version="1.6.4"]
+    import: (&(osgi.wiring.package=org.slf4j.impl)(version>=1.6.0))
+     |
+    export: osgi.wiring.package: org.slf4j.impl; uses:=org.slf4j.spi
+    export: osgi.wiring.package=org.slf4j.spi
+  org.slf4j.api [osgi.identity; osgi.identity="org.slf4j.api"; type="osgi.bundle"; version:Version="1.7.2.v20121108-1250"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-18 17:59:08.784
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-05-18 17:59:16.579
+!MESSAGE Error changing index details file:/Users/huangzhe/.m2/repository/
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-05-18 17:59:16.582
+!MESSAGE Could not add repository index
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-05-18 17:59:16.592
+!MESSAGE Error changing index details central|http://repo.maven.apache.org/maven2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-05-18 17:59:16.594
+!MESSAGE Could not add repository index
