@@ -5670,3 +5670,145 @@ Caused by: java.io.FileNotFoundException: /Users/huangzhe/Documents/MyCode/Study
 2016-05-18 23:10:25,128 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/main/resources
 2016-05-18 23:10:25,129 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-05-18 23:10:25,129 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/test/resources
+2016-05-18 23:41:50,728 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
+2016-05-18 23:42:38,083 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
+2016-05-18 23:42:38,088 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
+2016-05-18 23:42:38,121 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/pom.xml
+2016-05-18 23:42:38,742 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pers.ethan.homework:HomeWork_3_4:0.0.1-SNAPSHOT @ /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/pom.xml.
+2016-05-18 23:42:38,921 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HomeWork_3_4/src/main/java
+2016-05-18 23:42:38,923 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HomeWork_3_4/src/test/java
+2016-05-18 23:42:38,983 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-05-18 23:42:39,338 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pers.ethan.homework:HomeWork_3_4:0.0.1-SNAPSHOT @ /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/pom.xml.
+2016-05-18 23:42:39,376 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:39,377 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:42:39,379 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:39,379 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:42:40,122 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pers.ethan.homework:HomeWork_3_4:0.0.1-SNAPSHOT @ /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/pom.xml.
+2016-05-18 23:42:40,490 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:40,490 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:42:40,491 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:40,491 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:42:53,679 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:53,680 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:42:53,681 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:53,681 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:42:54,698 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:54,699 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:42:54,700 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:42:54,700 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:45:55,835 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:45:55,835 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:45:55,837 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:45:55,837 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:46:29,513 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:46:29,514 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:46:29,515 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:46:29,515 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:46:52,721 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:46:52,721 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:46:52,723 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:46:52,723 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:47:12,250 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:12,250 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:47:12,252 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:12,253 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:47:24,961 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:24,961 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:47:24,962 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:24,962 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:47:40,570 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:40,571 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:47:40,572 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:47:40,572 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:48:05,453 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:05,453 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:48:05,454 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:05,454 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:48:27,775 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:27,776 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:48:27,777 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:27,777 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:48:41,685 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:41,685 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:48:41,686 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:41,686 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:48:56,495 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:56,495 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:48:56,497 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:48:56,497 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:49:08,574 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:08,574 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:49:08,575 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:08,576 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:49:24,151 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:24,151 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:49:24,154 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:24,154 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:49:46,296 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:46,297 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:49:46,298 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:46,298 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:49:50,309 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:50,310 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:49:50,311 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:49:50,311 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:50:28,521 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:28,522 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:50:28,523 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:28,524 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:50:38,401 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:38,401 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:50:38,403 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:38,403 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:50:50,948 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:50,948 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:50:50,949 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:50:50,950 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:51:10,459 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:10,459 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:51:10,461 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:10,461 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:51:15,063 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:15,063 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:51:15,064 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:15,064 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:51:22,601 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:22,602 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:51:22,603 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:22,603 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:51:30,555 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:30,555 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:51:30,556 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:51:30,556 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:53:24,798 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:24,798 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:53:24,799 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:24,800 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:53:40,590 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:40,590 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:53:40,591 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:40,591 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:53:52,067 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:52,067 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:53:52,069 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:53:52,069 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:54:46,440 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:54:46,441 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:54:46,442 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:54:46,442 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:55:21,291 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:21,291 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:55:21,292 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:21,293 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:55:28,686 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:28,687 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:55:28,688 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:28,688 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:55:37,332 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:37,333 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:55:37,334 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:37,335 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources
+2016-05-18 23:55:48,350 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:48,350 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/main/resources
+2016-05-18 23:55:48,351 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 23:55:48,352 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/HomeWork_3_4/src/test/resources

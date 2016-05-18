@@ -1,0 +1,28 @@
+package pers.ethan.homework;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    }
+}
+
+class WithFinalize{
+	private String name;
+	
+	public WithFinalize(String name) {
+		this.name = name;
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println(name + " finalize...");
+		super.finalize();
+	}
+	
+}

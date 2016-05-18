@@ -7769,3 +7769,12 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-18 23:41:50.729
+!MESSAGE Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-18 23:42:38.083
+!MESSAGE Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-05-18 23:42:38.088
+!MESSAGE Failure to transfer org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from http://10.10.66.33:8082/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.archetypes:maven-archetype-quickstart/maven-metadata.xml from/to nexus (http://10.10.66.33:8082/nexus/content/groups/public): connect timed out
