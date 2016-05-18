@@ -1,0 +1,26 @@
+package pers.ethan.anytest;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	List<String> list1 = new ArrayList<String>();
+    	list1.add("1");
+    	List<String> list2 = new ArrayList<String>();
+    	list1.add("2");
+    	System.out.println(list1.equals(list2));
+    }
+}
+
+class A{
+	
+}

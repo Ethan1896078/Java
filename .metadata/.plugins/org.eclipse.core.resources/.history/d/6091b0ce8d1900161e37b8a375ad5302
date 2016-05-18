@@ -1,0 +1,9 @@
+package pers.ethan.homework;
+
+public class ShowByString implements PalindromeNumberShow {
+
+	public void showPalindromeNumber(int endNumber) {
+		String endNumberStr = String.valueOf(endNumber);
+	}
+
+}

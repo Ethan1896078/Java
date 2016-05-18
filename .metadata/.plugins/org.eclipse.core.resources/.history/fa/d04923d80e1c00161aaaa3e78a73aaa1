@@ -1,0 +1,34 @@
+package pers.ethan.thread;
+
+public class ThreadCount {
+	
+	
+
+	public static void main(String[] args) {
+		class Countter{
+			int count = 0;
+		}
+		
+		class CountRunnable1 implements Runnable{
+			private Countter countter;
+
+			public void run() {
+				while (countter.count % 2 == 0 && countter.count <= 100) {
+					
+				}
+			}
+			
+		}
+		
+		Countter countter = new Countter();
+		
+		new Thread(new Runnable() {
+			
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		}).start();
+	}
+	
+}
