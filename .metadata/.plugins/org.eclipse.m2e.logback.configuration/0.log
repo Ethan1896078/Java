@@ -5328,3 +5328,11 @@ Caused by: java.io.FileNotFoundException: /Users/huangzhe/Documents/MyCode/Study
 2016-05-18 18:11:27,053 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/main/resources
 2016-05-18 18:11:27,055 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-05-18 18:11:27,056 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/test/resources
+2016-05-18 18:32:07,584 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 18:32:07,584 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/main/resources
+2016-05-18 18:32:07,585 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 18:32:07,585 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/test/resources
+2016-05-18 18:34:24,844 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 18:34:24,844 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/main/resources
+2016-05-18 18:34:24,845 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-05-18 18:34:24,845 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/huangzhe/Documents/MyCode/Study/Java/Homework_3_3/src/test/resources
