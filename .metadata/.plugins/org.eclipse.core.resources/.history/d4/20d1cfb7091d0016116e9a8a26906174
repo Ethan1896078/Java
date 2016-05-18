@@ -1,0 +1,41 @@
+package pers.ethan.homework;
+
+public class Complex {
+	
+	private double imaginary;
+	private double real;
+	
+	public Complex(double imaginary, double real){
+		this.imaginary = imaginary;
+		this.real = real;
+	}
+	
+	public Complex add(Complex complex){
+		double imaginary = this.imaginary + complex.imaginary;
+		double real = this.real + complex.real;
+		return new Complex(imaginary, real);
+	}
+	
+	public Complex substract(Complex complex){
+		double imaginary = this.imaginary - complex.imaginary;
+		double real = this.real - complex.real;
+		return new Complex(imaginary, real);
+	}
+	
+	public Complex multiply(Complex complex){
+		double imaginary = this.imaginary * complex.real + this.real * complex.imaginary;
+		double real = this.imaginary * complex.imaginary * -1 + this.real * complex.real;
+		return new Complex(imaginary, real);
+	}
+	
+	/**
+	 * 除法是分子分母同乘以分母的共轭表达式，使得分母常数化
+	 * @param complex
+	 * @return
+	 */
+	public Complex divide(Complex complex){
+		Complex adjoint = new Complex(complex.imaginary, complex.real * -1);
+		Complex denominator = complex.multiply(adjoint).real;
+		double numerator = 
+	}
+}
