@@ -36,8 +36,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
-			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.homework"/>
+			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.innerclass"/>
 			<item value="pers.ethan.callback"/>
 			<item value="pers.ethan.httpclient"/>
@@ -49,8 +49,8 @@
 			<item value="com.ethan.javase"/>
 		</list>
 		<list key="package">
-			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.homework"/>
+			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.innerclass"/>
 			<item value="pers.ethan.callback"/>
 			<item value="pers.ethan.httpclient"/>
@@ -64,6 +64,7 @@
 			<item value="com.ethan.javase.helloworld"/>
 		</list>
 		<list key="artifactId">
+			<item value="HomeWork_3_4"/>
 			<item value="NestedClass"/>
 			<item value="Homework_3_3"/>
 			<item value="HomeWork_3_1"/>

@@ -1,0 +1,70 @@
+package pers.ethan.homework;
+
+public class DeepCopy {
+	public static void main(String[] args) {
+		C c = new C(3);
+		B b = new B(2, c);
+		A a = new A(1, b);
+		
+		
+	}
+	
+	/**
+	 * 
+	 * @author Pangzi_zhe
+	 *
+	 */
+	public static A deepCopyByManual(A source){
+		C cCopy = new C(source.b.c.cInt);
+		B bCopy = new B(source.b.bInt, cCopy);
+		A aCopy = new A(source.aInt, bCopy);
+		return aCopy;
+	}
+	
+}
+
+
+
+class A{
+	public int aInt;
+	public B b;
+	
+	public A(int aInt, B b) {
+		this.aInt = aInt;
+		this.b = b;
+	}
+	
+	@Override
+	public String toString() {
+		return "{ aInt : " + aInt + ", b : " + b + "}";
+	}
+}
+
+class B{
+	public int bInt;
+	public C c;
+	
+	public B(int bInt, C c) {
+		this.bInt = bInt;
+		this.c = c;
+	}
+	
+	@Override
+	public String toString() {
+		return "[ bInt : " + bInt + ", c : " + c + "]";
+	}
+}
+
+class C{
+	public int cInt;
+	
+	public C(int cInt){
+		this.cInt = cInt;
+	}
+	
+	@Override
+	public String toString() {
+		return "( cInt : " + cInt + ")";
+	}
+}
+

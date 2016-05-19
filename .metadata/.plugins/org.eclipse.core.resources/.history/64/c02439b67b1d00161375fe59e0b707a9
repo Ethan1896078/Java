@@ -1,0 +1,14 @@
+package pers.ethan.homework;
+
+public class DeepCopyByManual {
+	
+}
+
+class A{
+	private int aInt;
+	private B b;
+}
+
+class B{
+	private int b;
+}

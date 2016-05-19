@@ -23,14 +23,16 @@ public class App
     	System.out.println(intArray1.equals(intArray2));
     	System.out.println(Arrays.equals(intArray1, intArray2));*/
     	
-    	Integer[] i = {2, 1, 5, 3, 4};
+    	/*Integer[] i = {2, 1, 5, 3, 4};
     	print(i);
     	Arrays.sort(i);
     	print(i);
     	Arrays.sort(i, Collections.reverseOrder());
     	print(i);
     	
-    	System.out.println(new Integer(1).equals(new Integer(1)));
+    	System.out.println(new Integer(1).equals(new Integer(1)));*/
+    	
+    	
     	
     }
     

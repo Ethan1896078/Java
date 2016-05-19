@@ -1,0 +1,22 @@
+package pers.ethan.homework;
+
+public class DeepCopyByManual {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class A{
+	private int aInt;
+	private B b;
+}
+
+class B{
+	private int bInt;
+	private C c;
+}
+
+class C{
+	private int cInt;
+}
+

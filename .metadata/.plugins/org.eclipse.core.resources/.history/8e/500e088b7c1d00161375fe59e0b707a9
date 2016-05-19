@@ -1,0 +1,49 @@
+package pers.ethan.homework;
+
+public class DeepCopy {
+	public static void main(String[] args) {
+		C c = new C(3);
+		B b = new B(2, c);
+		A a = new A(1, b);
+		
+		
+	}
+	
+	/**
+	 * 
+	 * @author Pangzi_zhe
+	 *
+	 */
+	public static A deepCopyByManual()
+}
+
+
+
+class A{
+	private int aInt;
+	private B b;
+	
+	public A(int aInt, B b) {
+		this.aInt = aInt;
+		this.b = b;
+	}
+}
+
+class B{
+	private int bInt;
+	private C c;
+	
+	public B(int bInt, C c) {
+		this.bInt = bInt;
+		this.c = c;
+	}
+}
+
+class C{
+	private int cInt;
+	
+	public C(int cInt){
+		this.cInt = cInt;
+	}
+}
+
