@@ -64,6 +64,7 @@
 			<item value="com.ethan.javase.helloworld"/>
 		</list>
 		<list key="artifactId">
+			<item value="HomeWork_3_5"/>
 			<item value="HomeWork_3_4"/>
 			<item value="NestedClass"/>
 			<item value="Homework_3_3"/>

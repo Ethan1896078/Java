@@ -1,0 +1,11 @@
+package pers.ethan.homework;
+
+public class BusinessStaff extends Staff{
+
+	@Override
+	public void work() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

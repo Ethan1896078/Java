@@ -1,0 +1,15 @@
+package pers.ethan.homework;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Staff aBusinessStaff = new BusinessStaff();
+    	Staff aProductStaff = new ProductStaff();
+    	Staff aDeveloper = new Developer();
+    }
+}

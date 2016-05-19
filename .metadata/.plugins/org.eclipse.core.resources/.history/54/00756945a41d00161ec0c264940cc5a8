@@ -1,0 +1,9 @@
+package pers.ethan.homework;
+
+public abstract class Employee {
+	/** 姓名 */
+	private String name;
+	private int age;
+	private 
+	
+}

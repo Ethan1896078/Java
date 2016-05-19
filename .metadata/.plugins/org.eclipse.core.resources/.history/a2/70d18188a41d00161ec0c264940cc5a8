@@ -1,0 +1,12 @@
+package pers.ethan.homework;
+
+public abstract class Employee {
+	/** 姓名 */
+	private String name;
+	/** 年龄 */
+	private int age;
+	/** 月薪 */
+	private double salary; 
+	/** 入职时间 */
+	private String joindedDate;
+}

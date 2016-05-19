@@ -1,9 +1,0 @@
-package pers.ethan.homework;
-
-public class DeepCopyByManual {
-	
-}
-
-class A{
-	
-}
