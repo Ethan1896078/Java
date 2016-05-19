@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;pers.ethan.homework.App.java&apos; to &apos;WithFinalize.java&apos;&#x0A;- Original project: &apos;HomeWork_3_4&apos;&#x0A;- Original element: &apos;pers.ethan.homework.App.java&apos;&#x0A;- Renamed element: &apos;pers.ethan.homework.WithFinalize.java&apos;" description="Rename compilation unit &apos;App.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;pers.ethan.homework{App.java" name="WithFinalize.java" references="false" stamp="1463586521188" version="1.0"/>
-</session>
