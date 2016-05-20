@@ -1,0 +1,21 @@
+package pers.ethan.homework;
+
+public abstract class AbstractSensor implements Sensable{
+	/** 正常范围的最低值 */
+	protected double min;
+	/** 正常范围的最高值 */
+	protected double max;
+	/** 调节器 */
+	protected Adjustable adjustable;
+	
+	public void sense(double value) {
+		if (value < min || value > max) {
+			warn(value);
+			adjust();
+		}
+	}
+	
+	protected abstract void warn(double value);
+	
+	protected abstract void adjust();
+}

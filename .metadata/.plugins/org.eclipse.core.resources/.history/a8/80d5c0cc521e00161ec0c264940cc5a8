@@ -1,0 +1,17 @@
+package pers.ethan.homework;
+
+public class TemperatureSensor extends AbstractSensor {
+
+	@Override
+	protected void warn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void adjust() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package pers.ethan.homework;
+
+public class TemperatureSensor extends AbstractSensor {
+
+	public TemperatureSensor(double min, double max) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	protected void warn(double value) {
+		System.out.println("警报警报！当前温度" + value + "℃，超过正常范围：(" + min + ", " + max +")");
+	}
+
+	@Override
+	protected void adjust() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

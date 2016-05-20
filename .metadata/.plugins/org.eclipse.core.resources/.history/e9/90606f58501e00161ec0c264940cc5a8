@@ -1,0 +1,12 @@
+package pers.ethan.homework;
+
+public interface Sensor {
+	/**
+	 * desc:传感
+	 * <p>创建人：huangzhe , 2016年5月20日下午2:00:34</p>
+	 */
+	public void sense();
+	
+	
+	
+}

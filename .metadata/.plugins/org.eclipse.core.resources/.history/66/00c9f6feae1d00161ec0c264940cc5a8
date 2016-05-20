@@ -1,0 +1,61 @@
+package pers.ethan.homework;
+
+public class Initialize {
+
+	public static void main(String[] args) {
+		Child child = new Child();
+		Someone someone = new Someone();
+	}
+
+}
+
+
+
+class Child extends Parent{
+	public static Someone someone;
+	
+	public Child() {
+		System.out.println("constructor in Child");
+	}
+	
+	static{
+		System.out.println("static block1 in Child");
+	}
+	
+	{
+		System.out.println("normal block in Child");
+	}
+	
+	static{
+		System.out.println("static block2 in Cihld");
+	}
+	
+	public static Someone someone2;
+	
+}
+
+class Parent{
+	public static Someone someone;
+	
+	static{
+		System.out.println("static block in Parent");
+	}
+	
+	public Parent() {
+		System.out.println("constructor in Parent");
+	}
+}
+
+class Someone{
+	static{
+		System.out.println("static block in Someone");
+	}
+	
+	public Someone() {
+		System.out.println("no args constructor in Someone");
+	}
+	
+	public Someone(int i){
+		System.out.println("1 args constructor in Someone");
+	}
+}

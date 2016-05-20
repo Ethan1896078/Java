@@ -1,0 +1,7 @@
+package pers.ethan.homework;
+
+public abstract class AbstractSensor implements Sensable{
+	/** 正常范围的最低温度 */
+	private double min;
+	private double max;
+}

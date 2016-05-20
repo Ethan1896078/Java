@@ -1,0 +1,13 @@
+package pers.ethan.homework;
+
+public class Initialize {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Parent{
+	
+}

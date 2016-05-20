@@ -1,0 +1,16 @@
+package pers.ethan.homework;
+
+public class TemperatureSensor extends AbstractSensor {
+
+	@Override
+	protected void warn(double value) {
+		System.out.println("警报警报！当前温度" + value);
+	}
+
+	@Override
+	protected void adjust() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

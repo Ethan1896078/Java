@@ -1,0 +1,8 @@
+package pers.ethan.homework;
+
+public interface Sensor {
+	/** 有效范围最小值 */
+	static double min;
+	/** 有效范围最大值 */
+	double max;
+}

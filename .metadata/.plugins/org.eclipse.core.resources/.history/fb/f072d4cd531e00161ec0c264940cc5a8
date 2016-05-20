@@ -1,0 +1,16 @@
+package pers.ethan.homework;
+
+public class HumiditySensor extends AbstractSensor{
+
+	@Override
+	protected void warn(double value) {
+		System.out.println("警报警报！当前温度" + value + "℃，超过正常范围：(" + min + ", " + max +")");
+	}
+
+	@Override
+	protected void adjust() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

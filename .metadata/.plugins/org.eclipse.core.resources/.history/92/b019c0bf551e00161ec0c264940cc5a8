@@ -1,0 +1,14 @@
+package pers.ethan.homework;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Sensable sensor = new TemperatureSensor(25D, 35D);
+    	double temperature = 20 + Math.random() * 20;
+    }
+}
