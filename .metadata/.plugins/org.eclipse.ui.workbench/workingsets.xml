@@ -8,6 +8,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Homework_4_2" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Homework_4_3" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Homework_4_5" type="4"/>
+<item elementID="=Homework_5_2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1459243475413_0" label="Window Working Set" name="Aggregate for window 1459243475412"/>
 </workingSetManager>

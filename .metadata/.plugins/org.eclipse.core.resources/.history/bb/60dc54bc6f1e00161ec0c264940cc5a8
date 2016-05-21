@@ -1,0 +1,10 @@
+package pers.ethan.homework;
+
+public class VIPSystem {
+	private List<>
+}
+
+class VIP{
+	private String VIPNo;
+}
+

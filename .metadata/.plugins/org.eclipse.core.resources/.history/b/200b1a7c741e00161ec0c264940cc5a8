@@ -1,0 +1,106 @@
+package pers.ethan.homework;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class VIPSystem {
+	/** 使用List组织，可通过下标获取会员 */
+	private List<VIP> vipList;
+	/** 使用Map组织，键为会员号，值为会员对象 */
+	private Map<String, VIP> vipMap;
+	/** 使用Set组织，无序 */
+	private Set<VIP> vipSet;
+	/** 使用SortedSet组织，有序 */
+	private SortedSet<VIP> vipSortedSet;
+	private static VIPSystem instance = new VIPSystem();
+	
+	public static VIPSystem getInstance(){
+		return instance;
+	}
+	
+	private VIPSystem(){
+		vipList = new ArrayList<VIP>();
+		vipMap = new HashMap<String, VIP>();
+		vipSet = new HashSet<VIP>();
+		vipSortedSet = new TreeSet<VIP>();
+	}
+	
+	/**
+	 * desc:注册
+	 * <p>创建人：huangzhe , 2016年5月20日下午6:16:43</p>
+	 * @param name
+	 * @return
+	 */
+	public boolean register(String name){
+		try {
+			VIP vip = new VIP(name);
+			vipList.add(vip);
+			vipMap.put(vip.vipNo, vip);
+			vipSet.add(vip);
+			vipSortedSet.add(vip);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	/**
+	 * desc:删除
+	 * <p>创建人：huangzhe , 2016年5月20日下午6:16:49</p>
+	 * @param vipNo
+	 * @return
+	 */
+	public boolean remove(String vipNo){
+		try {
+			VIP vip = vipMap.get(vipNo);
+			vip.state = VIP.STATE_UNAVALIBLE;
+			vipList.remove(vip);
+			vipSet.remove(vip);
+			vipSortedSet.remove(vip);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+	
+	public void showVIPs(){
+		
+	}
+	
+	public static void main(String[] args) {
+		VIPSystem vipSystem = VIPSystem.getInstance();
+		String[] toBeVip = {"King", "Echo", "Earl", "Ethan", "Danny"};
+		for (int i = 0; i < toBeVip.length; i++) {
+			vipSystem.register(name);
+		}
+	}
+	
+	
+	private static class VIP{
+		/** 会员号 */
+		private String vipNo;
+		/** 会员名称 */
+		private String name;
+		/** 状态 */
+		private short state;
+		/** 存储最大会员号 */
+		static int maxVIPNo;
+		private static final short STATE_AVAILABLE = 1;
+		private static final short STATE_UNAVALIBLE = 0;
+		
+		
+		public VIP(String name) {
+			this.vipNo = String.format("%08d", maxVIPNo++);
+			this.name = name;
+			this.state = STATE_AVAILABLE;
+		}
+	}
+}
+
+

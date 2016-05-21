@@ -1,0 +1,25 @@
+package pers.ethan.homework;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedSet;
+
+public class VIPSystem {
+	/** 使用List组织，可通过下标获取会员 */
+	private List<VIP> vipList;
+	/** 使用Map组织，键为会员号，值为会员对象 */
+	private Map<String, VIP> vipMap;
+	private Set<VIP> vipSet;
+	private SortedSet<VIP> vipSortedSet;
+	
+	
+}
+
+class VIP{
+	/** 会员号 */
+	private String VIPNo;
+	/** 会员名称 */
+	private String name;
+}
+

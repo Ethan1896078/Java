@@ -1,0 +1,17 @@
+package pers.ethan.homework;
+
+import java.util.List;
+
+public class VIPSystem {
+	/** 使用List组织，可通过下标获取会员 */
+	private List<VIP> vipList;
+	
+}
+
+class VIP{
+	/** 会员号 */
+	private String VIPNo;
+	/** 会员名称 */
+	private String name;
+}
+

@@ -1,0 +1,6 @@
+package pers.ethan.homework;
+
+public interface AbstractVIPSystem {
+}
+
+class VIP
