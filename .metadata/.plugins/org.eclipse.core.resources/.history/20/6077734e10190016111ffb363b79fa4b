@@ -1,9 +1,0 @@
-package pers.ethan.callback;
-
-public class Callee {
-	private Callback caller;
-	
-	public add(int a, int b){
-		
-	}
-}

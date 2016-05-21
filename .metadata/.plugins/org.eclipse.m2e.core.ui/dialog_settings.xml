@@ -24,6 +24,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/huangzhe/Documents/MyCode/Study/Java/Homework_4_3"/>
+			<item value="/Users/huangzhe/Documents/MyCode/Study/Java/Homework_4_2"/>
 			<item value="/Users/huangzhe/Documents/MyCode/Study/Java/SocketServer/src/main/java/pers/ethan/socketserver/App.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -64,6 +66,10 @@
 			<item value="com.ethan.javase.helloworld"/>
 		</list>
 		<list key="artifactId">
+			<item value="Homework_5_2"/>
+			<item value="Homework_4_5"/>
+			<item value="Homework_4_3"/>
+			<item value="Homework_4_2"/>
 			<item value="HomeWork_3_5"/>
 			<item value="HomeWork_3_4"/>
 			<item value="NestedClass"/>
@@ -75,9 +81,6 @@
 			<item value="IO"/>
 			<item value="SocketServer"/>
 			<item value="SocketClient"/>
-			<item value="HellwWorld"/>
-			<item value="test"/>
-			<item value="HelloWorld"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

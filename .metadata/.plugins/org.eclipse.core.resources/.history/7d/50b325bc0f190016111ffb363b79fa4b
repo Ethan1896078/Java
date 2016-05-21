@@ -1,5 +1,0 @@
-package pers.ethan.callback;
-
-public class Caller implements Callback{
-
-}

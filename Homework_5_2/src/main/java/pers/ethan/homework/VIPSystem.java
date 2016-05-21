@@ -63,7 +63,7 @@ public class VIPSystem {
 		VIP vip = null;
 		try {
 			vip = vipMap.get(vipNo);
-			vip.state = VIP.STATE_UNAVALIBLE;
+			vipMap.remove(vipNo);
 			vipList.remove(vip);
 			vipSet.remove(vip);
 			vipSortedSet.remove(vip);
@@ -168,27 +168,19 @@ public class VIPSystem {
 		private String vipNo;
 		/** 会员名称 */
 		private String name;
-		/** 状态 */
-		private short state;
 		/** 存储最大会员号 */
 		static int maxVIPNo;
-		private static final short STATE_AVAILABLE = 1;
-		private static final short STATE_UNAVALIBLE = 0;
 		
 		
 		public VIP(String name) {
 			this.vipNo = String.format("%08d", maxVIPNo++);
 			this.name = name;
-			this.state = STATE_AVAILABLE;
 		}
-
 
 		@Override
 		public String toString() {
-			return "VIP [vipNo=" + vipNo + ", name=" + name + ", state="
-					+ state + "]";
+			return "VIP [vipNo=" + vipNo + ", name=" + name + "]";
 		}
-		
 		
 	}
 }
