@@ -56,11 +56,11 @@ public class App
     		fileOutputStream = new FileOutputStream("/Users/huangzhe/Documents/temp/undecodeTarget");
     		int t = 0;
 			while ((t = encodeInputStream.read()) != -1) {
+				decodePrintStream.write(t);
 				// 普通的FileOutputStream无法正确读取EncodeInputStream的内容
 				fileOutputStream.write(t);
 				// 带有解密功能的处理流DecodeOutputStream可以正确读取EncodeInputStream的内容
 				decodeFileOutputStream.write(t);
-				decodePrintStream.write(t);
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

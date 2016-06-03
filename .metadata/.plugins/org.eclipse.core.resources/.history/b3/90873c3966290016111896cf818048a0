@@ -46,21 +46,19 @@ public class App
     public static void main( String[] args )
     {
     	EncodeInputStream encodeInputStream = null;
-    	DecodeOutputStream decodeFileOutputStream = null;
-    	DecodeOutputStream decodePrintStream = null;
+    	DecodeOutputStream decodeOutputStream = null;
     	FileOutputStream fileOutputStream = null;
     	try {
     		encodeInputStream = new EncodeInputStream(new FileInputStream(new File("/Users/huangzhe/Documents/temp/source")));
-    		decodeFileOutputStream = new DecodeOutputStream(new FileOutputStream(new File("/Users/huangzhe/Documents/temp/decodeTarget")));
-    		decodePrintStream = new DecodeOutputStream(System.out);
+    		decodeOutputStream = new DecodeOutputStream(new FileOutputStream(new File("/Users/huangzhe/Documents/temp/decodeTarget")));
     		fileOutputStream = new FileOutputStream("/Users/huangzhe/Documents/temp/undecodeTarget");
     		int t = 0;
 			while ((t = encodeInputStream.read()) != -1) {
+				System.out.println(t);
 				// 普通的FileOutputStream无法正确读取EncodeInputStream的内容
 				fileOutputStream.write(t);
 				// 带有解密功能的处理流DecodeOutputStream可以正确读取EncodeInputStream的内容
-				decodeFileOutputStream.write(t);
-				decodePrintStream.write(t);
+				decodeOutputStream.write(t);
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -73,7 +71,7 @@ public class App
 				e.printStackTrace();
 			}
 			try {
-				decodeFileOutputStream.close();
+				decodeOutputStream.close();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

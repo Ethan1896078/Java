@@ -1,3 +1,5 @@
 1464936717395	Rename local variable 'in'
 1464936731276	Rename local variable 'out'
 1464936746240	Rename local variable 'normalOut'
+1464943034078	Rename local variable 'decodeOutputStream'
+1464943045859	Rename local variable 'decodeFukeOutputStream'
