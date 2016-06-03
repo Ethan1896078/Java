@@ -1,8 +1,0 @@
-package pers.ethan.homework;
-
-public class Complex {
-	private int imaginary;
-	private int real;
-	
-	
-}

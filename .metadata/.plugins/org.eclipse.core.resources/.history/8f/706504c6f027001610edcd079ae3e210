@@ -1,0 +1,19 @@
+package pers.ethan.thread;
+
+public class ThreadLocalDemo {
+	private class Student{
+		private int age;
+	}
+	
+	private class MyRunnable implements Runnable{
+		private ThreadLocal<Student> threadLocalStudent;
+
+		public void run() {
+			Student student = threadLocalStudent.get();
+			student.age++;
+			threadLocalStudent.set(paramT);
+			
+		}
+		
+	}
+}

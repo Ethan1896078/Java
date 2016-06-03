@@ -1,5 +1,0 @@
-package pers.ethan.homework;
-
-public interface Adjustable {
-	public void adjust();
-}

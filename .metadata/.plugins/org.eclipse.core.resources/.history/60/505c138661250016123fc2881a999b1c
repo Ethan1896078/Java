@@ -1,0 +1,21 @@
+package pers.ethan.myassert;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    }
+    
+}
+
+class Account{
+	private double balance;
+	
+	
+}
+

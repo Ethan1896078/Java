@@ -1,0 +1,18 @@
+package pers.ethan.byteoperation;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	byte[] bytes = "haha".getBytes();
+    	System.out.println(bytes);
+    }
+    
+    public static void printBit(Byte byteValue){
+    	
+    }
+}

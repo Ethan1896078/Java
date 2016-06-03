@@ -39,6 +39,9 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
 			<item value="pers.ethan.homework"/>
+			<item value="pers.ethan.byteoperation"/>
+			<item value="pers.ethan.myassert"/>
+			<item value="pers.ethan.assert"/>
 			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.innerclass"/>
 			<item value="pers.ethan.callback"/>
@@ -52,6 +55,9 @@
 		</list>
 		<list key="package">
 			<item value="pers.ethan.homework"/>
+			<item value="pers.ethan.byteoperation"/>
+			<item value="pers.ethan.myassert"/>
+			<item value="pers.ethan.assert"/>
 			<item value="pers.ethan.nestedclass"/>
 			<item value="pers.ethan.innerclass"/>
 			<item value="pers.ethan.callback"/>
@@ -63,9 +69,12 @@
 			<item value="pers.ethan"/>
 			<item value="pers.ethan.helloworld"/>
 			<item value="com.ethan.javase.test"/>
-			<item value="com.ethan.javase.helloworld"/>
 		</list>
 		<list key="artifactId">
+			<item value="Homework_6_2"/>
+			<item value="ByteOperation"/>
+			<item value="MyAssert"/>
+			<item value="Assert"/>
 			<item value="Homework_5_2"/>
 			<item value="Homework_4_5"/>
 			<item value="Homework_4_3"/>
@@ -77,10 +86,6 @@
 			<item value="HomeWork_3_1"/>
 			<item value="InnerClass"/>
 			<item value="Callback"/>
-			<item value="HttpClient"/>
-			<item value="IO"/>
-			<item value="SocketServer"/>
-			<item value="SocketClient"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

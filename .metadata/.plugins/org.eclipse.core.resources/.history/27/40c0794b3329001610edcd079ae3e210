@@ -1,0 +1,14 @@
+package pers.ethan.byteoperation;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Byte b = new Byte(1);
+    	System.out.println(b);
+    }
+}

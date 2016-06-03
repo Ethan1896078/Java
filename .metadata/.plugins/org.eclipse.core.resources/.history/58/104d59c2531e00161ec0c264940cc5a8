@@ -1,5 +1,0 @@
-package pers.ethan.homework;
-
-public class HumiditySensor extends AbstractSensor{
-
-}

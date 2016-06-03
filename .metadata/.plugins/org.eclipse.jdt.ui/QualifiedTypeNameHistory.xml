@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="pers.ethan.nestedclass.OutterOfMemberClass.StaticMemberClass"/>
-<fullyQualifiedTypeName name="pers.ethan.nestedclass.HasStatic"/>
-<fullyQualifiedTypeName name="pers.ethan.nestedclass.HasStaticInterface"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="Countter"/>
-<fullyQualifiedTypeName name="pers.ethan.thread.ThreadCount"/>
-<fullyQualifiedTypeName name="CountRunnable1"/>
-<fullyQualifiedTypeName name="CountRunnable2"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.NA"/>
-<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicBoolean"/>
-<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
 <fullyQualifiedTypeName name="Producer"/>
 <fullyQualifiedTypeName name="Consumer"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="SharedClass"/>
 <fullyQualifiedTypeName name="Notify"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="Wait"/>
 <fullyQualifiedTypeName name="pers.ethan.homework.Complex"/>
 <fullyQualifiedTypeName name="pers.ethan.homework.WithFinalize"/>
@@ -47,7 +30,6 @@
 <fullyQualifiedTypeName name="pers.ethan.homework.TemperatureSensor"/>
 <fullyQualifiedTypeName name="pers.ethan.homework.Sensable"/>
 <fullyQualifiedTypeName name="pers.ethan.homework.HumiditySensor"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="pers.ethan.homework.VIP"/>
 <fullyQualifiedTypeName name="pers.ethan.homework.VIPSystem"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="pers.ethan.myassert.Account"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="pers.ethan.thread.ThreadLocalDemo.MyRunnable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="pers.ethan.thread.ThreadLocalDemo.Student"/>
+<fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Byte"/>
+<fullyQualifiedTypeName name="java.io.FilterInputStream"/>
+<fullyQualifiedTypeName name="java.io.FilterOutputStream"/>
+<fullyQualifiedTypeName name="pers.ethan.homework.App.EncodeInputStream"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
+<fullyQualifiedTypeName name="pers.ethan.homework.App.DecodeOutputStream"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>
