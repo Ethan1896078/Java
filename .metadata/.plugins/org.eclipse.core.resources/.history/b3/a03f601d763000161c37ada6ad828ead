@@ -1,0 +1,55 @@
+package pers.ethan.homework;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	zip();
+    }
+    
+    public static void zip(){
+    	final int bufferSize = 8 * 1024;
+    	FileInputStream fileInputStream = null;
+    	ZipOutputStream zipOutputStream = null;
+    	try {
+    		String inputFile = "/Users/huangzhe/Documents/temp/toBeZiped.txt";
+    		String outputFile = "/Users/huangzhe/Documents/temp/toBeZiped.zip";
+			fileInputStream = new FileInputStream(inputFile);
+			zipOutputStream = new ZipOutputStream(new FileOutputStream(outputFile));
+			zipOutputStream.putNextEntry(new ZipEntry(inputFile));
+			byte bufferArray[]  = new byte[bufferSize];
+			int len = 0;
+			while ((len = fileInputStream.read(bufferArray, 0, bufferSize)) != -1) {
+				zipOutputStream.write(bufferArray);
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				fileInputStream.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			try {
+				zipOutputStream.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+    	 
+    }
+}

@@ -71,6 +71,7 @@
 			<item value="com.ethan.javase.test"/>
 		</list>
 		<list key="artifactId">
+			<item value="Homework_6_3"/>
 			<item value="Homework_6_2"/>
 			<item value="ByteOperation"/>
 			<item value="MyAssert"/>
@@ -85,7 +86,6 @@
 			<item value="Homework_3_3"/>
 			<item value="HomeWork_3_1"/>
 			<item value="InnerClass"/>
-			<item value="Callback"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
