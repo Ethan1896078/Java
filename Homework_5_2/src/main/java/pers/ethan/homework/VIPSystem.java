@@ -10,6 +10,10 @@ import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+/**
+ * @author ethanhuang
+ *
+ */
 public class VIPSystem {
 	/** 使用List组织，可通过下标获取会员 */
 	private List<VIP> vipList;

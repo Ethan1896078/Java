@@ -9,6 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * @author ethanhuang
+ *
+ */
 public class App 
 {
 	static class EncodeInputStream extends FilterInputStream{

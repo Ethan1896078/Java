@@ -11,7 +11,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * Hello world!
+ * @author ethanhuang
  *
  */
 public class Zip 

@@ -10,6 +10,10 @@ import java.io.IOException;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+/**
+ * @author ethanhuang
+ *
+ */
 public class Unzip {
 	public static void main(String[] args) {
     	String fileName = null;
