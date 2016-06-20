@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="320" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="actionSetFilter"/>
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="800" key="dialogWidth"/>
 		<item value="500" key="dialogHeight"/>
+		<item value="800" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.RepositoriesView"/>
+			<item value="org.eclipse.m2e.core.preferences.Maven2PreferencePage"/>
+		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
@@ -11,18 +28,6 @@
 			<item value="git"/>
 			<item value="maven"/>
 		</list>
-		<list key="orderedElements">
-			<item value="org.eclipse.egit.ui.RepositoriesView"/>
-			<item value="org.eclipse.m2e.core.preferences.Maven2PreferencePage"/>
-		</list>
-		<list key="textEntries">
-			<item value="1"/>
-			<item value="1"/>
-		</list>
-	</section>
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="23" key="DIALOG_Y_ORIGIN"/>
-		<item value="320" key="DIALOG_X_ORIGIN"/>
 	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
@@ -32,27 +37,22 @@
 	</section>
 	<section name="InstallationDialogSettings">
 		<item value="702" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="652" key="DIALOG_HEIGHT"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 		<item value="289" key="DIALOG_X_ORIGIN"/>
-		<item value="652" key="DIALOG_HEIGHT"/>
-		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="ShowViewDialog">
 		<item value="304" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="org.eclipse.jdt.ui.PackagesView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="78" key="DIALOG_Y_ORIGIN"/>
 		<item value="488" key="DIALOG_X_ORIGIN"/>
-		<item value="415" key="DIALOG_HEIGHT"/>
-		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jdt.ui.java.browsing"/>
 		</list>
-	</section>
-	<section name="org.eclipse.ui.preferences.keysPreferencePage">
-		<item value="true" key="uncategorizedFilter"/>
-		<item value="true" key="internalFilter"/>
-		<item value="true" key="actionSetFilter"/>
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
