@@ -32,7 +32,8 @@ public class App
     	
     	System.out.println(new Integer(1).equals(new Integer(1)));*/
     	
-    	
+    	Object o = null;
+    	String.valueOf(o);
     	
     }
     
