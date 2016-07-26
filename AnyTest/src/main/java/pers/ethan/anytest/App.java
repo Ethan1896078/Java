@@ -1,7 +1,10 @@
 package pers.ethan.anytest;
 
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.Map;
+
+import org.apache.commons.lang3.StringUtils;
+
+import com.google.common.collect.Maps;
 
 /**
  * Hello world!
@@ -32,9 +35,19 @@ public class App
     	
     	System.out.println(new Integer(1).equals(new Integer(1)));*/
     	
-    	Object o = null;
-    	String.valueOf(o);
+		/*Map<String, Object> singerInfo = Maps.newHashMap(); 
+		Map<String, Object> SINGER_TYPE_MAPPING = Maps.newHashMap();
+		Map<String, Object> SINGER_REGION_MAPPING = Maps.newHashMap();
+		SINGER_REGION_MAPPING.put("area_id", "");
+		String singerName = String.valueOf(singerInfo.get("author_name"));
+		Object typeObj = singerInfo.get("type");
+		Integer singerTypeFromKugou = typeObj != null && StringUtils.isNotBlank(typeObj.toString()) ? Integer.valueOf(typeObj.toString()) : null;
+		Object areaId = singerInfo.get("area_id");
+		Integer singerRegionFromKugou = areaId != null && StringUtils.isNotBlank(areaId.toString()) ? Integer.valueOf(areaId.toString()) : null;*/
     	
+    	Integer a = null;
+    	System.out.println("null".equals(String.valueOf(a)));
+		
     }
     
     public static void print(Integer[] args){
