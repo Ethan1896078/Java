@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="FastJson" external.linked.project.path="$MODULE_DIR$/../../FastJson" external.root.project.path="$MODULE_DIR$/../../FastJson" external.system.id="GRADLE" external.system.module.group="pers.ethan.fastjson" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../FastJson">
+      <excludeFolder url="file://$MODULE_DIR$/../../FastJson/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FastJson/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

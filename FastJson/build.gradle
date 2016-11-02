@@ -1,0 +1,26 @@
+group 'pers.ethan.fastjson'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+idea.project.languageLevel = '1.7'
+
+buildscript {
+    repositories {
+        maven { url "http://nexus.fanxing.kgidc.cn/nexus/content/groups/public/" }
+    }
+    dependencies {
+        classpath "net.saliman:gradle-cobertura-plugin:2.2.2"
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.alibaba:fastjson:1.1.41'
+    compile 'com.google.guava:guava:15.0'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
