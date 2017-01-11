@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" group="BlockingQueueDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" group="BlockingQueueDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_main.iml" group="FastJson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_test.iml" group="FastJson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuavaDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GuavaDemo_main.iml" group="GuavaDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GuavaDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GuavaDemo_test.iml" group="GuavaDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_SE_7/Java_SE_7.iml" filepath="$PROJECT_DIR$/Java_SE_7/Java_SE_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_SE_7/java/util/concurrent/concurrent.iml" filepath="$PROJECT_DIR$/Java_SE_7/java/util/concurrent/concurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_SE_7/java/java.iml" filepath="$PROJECT_DIR$/Java_SE_7/java/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_SE_7/java/util/util.iml" filepath="$PROJECT_DIR$/Java_SE_7/java/util/util.iml" />
     </modules>
   </component>
 </project>
