@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_main.iml" group="FastJson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_test.iml" group="FastJson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
     </modules>
   </component>

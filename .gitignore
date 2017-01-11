@@ -1,1 +1,5 @@
 */target
+workspace/.metadata
+*/.idea
+*/logs
+.idea

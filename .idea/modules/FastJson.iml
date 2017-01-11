@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../FastJson/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../FastJson/build" />
     </content>
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
