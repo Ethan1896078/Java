@@ -8,9 +8,15 @@ import java.util.concurrent.*;
  */
 public class CallableDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
-        Future<Integer> result = executorService.submit(new Calculate(1, 1));
-        System.out.println(result.get());
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        System.out.println("main thread : " + Thread.currentThread().getName());
+        Future<Integer> result1 = executorService.submit(new Calculate(1, 1));
+        Future<Integer> result2 = executorService.submit(new Calculate(2, 2));
+        Future<Integer> result3 = executorService.submit(new Calculate(3, 3));
+        System.out.println(result1.get());
+        System.out.println(result2.get());
+        System.out.println(result3.get());
+
     }
 }
 
@@ -24,7 +30,8 @@ class Calculate implements Callable<Integer> {
     }
 
     public Integer call() throws Exception {
-        Thread.sleep(10000);
+        Thread.sleep(5000);
+        System.out.println("callable thread : " + Thread.currentThread().getName());
         return firstParam + secondParam;
     }
 }
