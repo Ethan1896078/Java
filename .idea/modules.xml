@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" group="BlockingQueueDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" group="BlockingQueueDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CallableDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/CallableDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CallableDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CallableDemo_main.iml" group="CallableDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CallableDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CallableDemo_test.iml" group="CallableDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_main.iml" group="FastJson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_test.iml" group="FastJson" />

@@ -21,6 +21,8 @@
     <bytecodeTargetLevel>
       <module name="BlockingQueueDemo_main" target="1.5" />
       <module name="BlockingQueueDemo_test" target="1.5" />
+      <module name="CallableDemo_main" target="1.5" />
+      <module name="CallableDemo_test" target="1.5" />
       <module name="FastJson_main" target="1.7" />
       <module name="FastJson_test" target="1.7" />
       <module name="GuavaDemo_main" target="1.5" />
