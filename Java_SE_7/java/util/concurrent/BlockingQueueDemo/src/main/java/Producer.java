@@ -21,11 +21,12 @@ public class Producer implements Runnable {
         while (true) {
             try {
                 Toy toy = produce();
+                System.out.println("生成玩具(编号" + toy.getId() + ")");
                 if ("Throws exception".equals(type)) {
                     blockingQueue.add(toy);
                 } else if ("Special value".equals(type)) {
                     boolean offer = blockingQueue.offer(toy);
-                    System.out.println("生成玩具(编号" + toy.getId() + ")，队列中还有" + blockingQueue.size() + "个玩具，是否加入成功：" + offer);
+                    System.out.println("加入队列是否成功：" + offer);
                 } else if ("Blocks".equals(type)) {
                     blockingQueue.put(toy);
                 } else if ("Times out".equals(type)) {

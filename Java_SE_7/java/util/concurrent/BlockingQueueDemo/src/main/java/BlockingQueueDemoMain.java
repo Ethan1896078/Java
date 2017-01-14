@@ -8,9 +8,10 @@ import java.util.concurrent.BlockingQueue;
 public class BlockingQueueDemoMain {
     public static void main(String[] args) {
         BlockingQueue<Toy> blockingQueue = new ArrayBlockingQueue<Toy>(100);
-        String type = "Special value";
+        String type = "Blocks";
         new Thread(new Producer(blockingQueue, type)).start();
-        new Thread(new Consumer(blockingQueue, type)).start();
+        new Thread(new Consumer(blockingQueue, type, "aaa")).start();
+        new Thread(new Consumer(blockingQueue, type, "bbbbbbbbbbbbb")).start();
     }
 }
 

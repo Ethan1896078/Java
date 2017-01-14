@@ -9,10 +9,12 @@ public class Consumer implements Runnable{
 
     private BlockingQueue<Toy> blockingQueue;
     private String type;
+    private String name;
 
-    public Consumer(BlockingQueue<Toy> blockingQueue, String type) {
+    public Consumer(BlockingQueue<Toy> blockingQueue, String type, String name) {
         this.blockingQueue = blockingQueue;
         this.type = type;
+        this.name = name;
     }
 
     public void run() {
@@ -37,9 +39,9 @@ public class Consumer implements Runnable{
 
     private void consumer(Toy toy) {
         try {
-            System.out.println("消费玩具：" + toy);
-//            Thread.sleep(100);
-            Thread.sleep(10);
+            System.out.println("消费者" + name + "消费玩具：" + toy);
+            Thread.sleep(500);
+//            Thread.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
