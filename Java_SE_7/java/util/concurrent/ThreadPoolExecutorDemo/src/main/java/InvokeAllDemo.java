@@ -35,6 +35,7 @@ public class InvokeAllDemo {
             taskList.add(new CounterTask(iterator, counter, filePath));
         }
 
+        //所有任务执行完成才会返回Future列表
         List<Future<Object>> futures = threadPool.invokeAll(taskList);
         for (Future<Object> future : futures) {
             Object o = future.get();
