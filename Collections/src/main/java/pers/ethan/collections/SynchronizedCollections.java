@@ -18,7 +18,7 @@ public class SynchronizedCollections
 {
     public static void main( String[] args )
     {
-    	synchronizedSet();
+		synchronizedList();
     }
     
     private static void synchronizedList(){
@@ -133,32 +133,32 @@ public class SynchronizedCollections
 		}*/
         
         //线程安全 - 通过上锁
-        final Iterator <Integer> synchronizedSetIterator = normalSet.iterator();
-        for (int i = 0; i < 10; i++) {
-			new Thread(new Runnable() {
-				public void run() {
-					processingThreadCounter.incrementAndGet();
-					while (true) {
-						Integer integer = -1;
-						synchronized (synchronizedSetIterator) {
-							if (synchronizedSetIterator.hasNext()) {
-								integer = (Integer) synchronizedSetIterator.next();
-								excutorCounter.incrementAndGet();
-							} else {
-								break;
-							}
-						}
-						if (integer != -1) {
-							System.out.println(Thread.currentThread().getName() + " -> " + integer);
-						}
-					}
-					processingThreadCounter.decrementAndGet();
-				}
-			}).start();
-		}
+//        final Iterator <Integer> synchronizedSetIterator = normalSet.iterator();
+//        for (int i = 0; i < 10; i++) {
+//			new Thread(new Runnable() {
+//				public void run() {
+//					processingThreadCounter.incrementAndGet();
+//					while (true) {
+//						Integer integer = -1;
+//						synchronized (synchronizedSetIterator) {
+//							if (synchronizedSetIterator.hasNext()) {
+//								integer = (Integer) synchronizedSetIterator.next();
+//								excutorCounter.incrementAndGet();
+//							} else {
+//								break;
+//							}
+//						}
+//						if (integer != -1) {
+//							System.out.println(Thread.currentThread().getName() + " -> " + integer);
+//						}
+//					}
+//					processingThreadCounter.decrementAndGet();
+//				}
+//			}).start();
+//		}
         
       //TODO 未完成通过Collections.synchronizedSet
-      /*Set<Integer> synchronizedSet = Collections.synchronizedSet(normalSet);
+      Set<Integer> synchronizedSet = Collections.synchronizedSet(normalSet);
       final Iterator <Integer> synchronizedSetIterator = synchronizedSet.iterator();
       for (int i = 0; i < 10; i++) {
 			new Thread(new Runnable() {
@@ -181,7 +181,7 @@ public class SynchronizedCollections
 					processingThreadCounter.decrementAndGet();
 				}
 			}).start();
-		}*/
+		}
         
         while (processingThreadCounter.intValue() != 0) {
 		}

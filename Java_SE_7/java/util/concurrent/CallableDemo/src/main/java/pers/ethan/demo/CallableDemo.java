@@ -16,7 +16,6 @@ public class CallableDemo {
         System.out.println(result1.get());
         System.out.println(result2.get());
         System.out.println(result3.get());
-
     }
 }
 
@@ -35,3 +34,5 @@ class Calculate implements Callable<Integer> {
         return firstParam + secondParam;
     }
 }
+
+

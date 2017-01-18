@@ -23,12 +23,16 @@
       <module name="BlockingQueueDemo_test" target="1.5" />
       <module name="CallableDemo_main" target="1.5" />
       <module name="CallableDemo_test" target="1.5" />
+      <module name="CollectionsDemo_main" target="1.5" />
+      <module name="CollectionsDemo_test" target="1.5" />
       <module name="FastJson_main" target="1.7" />
       <module name="FastJson_test" target="1.7" />
       <module name="GuavaDemo_main" target="1.5" />
       <module name="GuavaDemo_test" target="1.5" />
       <module name="Java_SE_7_module_main" target="1.5" />
       <module name="Java_SE_7_module_test" target="1.5" />
+      <module name="ThreadPoolExecutorDemo_main" target="1.5" />
+      <module name="ThreadPoolExecutorDemo_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
