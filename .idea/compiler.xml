@@ -17,20 +17,51 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="JAXRS" />
+        <module name="JAXRS_SUB" />
+        <module name="Reactive" />
+        <module name="RESTClient" />
+        <module name="RESTService" />
+        <module name="SnapUp" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AnyTest2_main" target="1.5" />
+      <module name="AnyTest2_test" target="1.5" />
       <module name="BlockingQueueDemo_main" target="1.5" />
       <module name="BlockingQueueDemo_test" target="1.5" />
       <module name="CallableDemo_main" target="1.5" />
       <module name="CallableDemo_test" target="1.5" />
+      <module name="CloudService" target="1.5" />
+      <module name="CloudServiceStudy" target="1.5" />
       <module name="CollectionsDemo_main" target="1.5" />
       <module name="CollectionsDemo_test" target="1.5" />
+      <module name="ConcurrentSkipListSetDemo_main" target="1.7" />
+      <module name="ConcurrentSkipListSetDemo_test" target="1.7" />
       <module name="FastJson_main" target="1.7" />
       <module name="FastJson_test" target="1.7" />
+      <module name="FutureDemo_main" target="1.5" />
+      <module name="FutureDemo_test" target="1.5" />
       <module name="GuavaDemo_main" target="1.5" />
       <module name="GuavaDemo_test" target="1.5" />
       <module name="Java_SE_7_module_main" target="1.5" />
       <module name="Java_SE_7_module_test" target="1.5" />
+      <module name="JAXRS" target="1.5" />
+      <module name="JAXRS_SUB" target="1.5" />
+      <module name="JAXRS_Sub" target="1.5" />
+      <module name="Reactive" target="1.8" />
+      <module name="RESTClient" target="1.5" />
+      <module name="RESTService" target="1.5" />
+      <module name="SnapUp" target="1.5" />
+      <module name="SnapUpSystem" target="1.5" />
+      <module name="SnapUpSystem_main" target="1.5" />
+      <module name="SnapUpSystem_test" target="1.5" />
+      <module name="TEST_JAXRS" target="1.5" />
       <module name="ThreadPoolExecutorDemo_main" target="1.5" />
       <module name="ThreadPoolExecutorDemo_test" target="1.5" />
     </bytecodeTargetLevel>
