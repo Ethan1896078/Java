@@ -12,31 +12,35 @@ import javax.ws.rs.core.Response;
  */
 @Api("/customer")
 public class CustomerServiceImpl implements CustomerService {
-    public String GetCustomerName(String id) {
+    public String getCustomerName(Long id) {
         return "hello" + id;
     }
 
     public Response updateCustomer(Long id, String name){
         System.out.println("----invoking updateCustomer, Customer id: " + id + ", name: " + name);
-        Response r;
-        //if modify OK!
-        if (id == 123) {
-            r = Response.ok().build();
-        } else {
-            r = Response.notModified().build();
-        }
+        Response r = Response.ok().build();
         return r;
     }
 
     public Response addCustomer(Long id, String name){
         System.out.println("----invoking addCustomer, Customer id: " + id + ", name: " + name);
-        Response r;
-        r = Response.ok().build();
+        Response r = Response.ok().build();
         return r;
     }
 
     public Customer addCustomer(Customer customer) {
         System.out.println("----invoking addCustomer, Customer: " + customer);
         return customer;
+    }
+
+    public Response deleteCustomer(Long id) {
+        System.out.println("----invoking deleteCustomer, Customer id: " + id);
+        Response r;
+        if (id == 123) {
+            r = Response.ok().build();
+        } else {
+            r = Response.notModified().build();
+        }
+        return r;
     }
 }

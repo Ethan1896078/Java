@@ -15,11 +15,12 @@ public interface CustomerService {
     @GET
     @Path("/id/{id}")
     @Produces(MediaType.TEXT_PLAIN)
-    String GetCustomerName(@PathParam("id") String id);
+    String getCustomerName(@PathParam("id") Long id);
 
     @PUT
-    @Path("/update")
-    Response updateCustomer(@DefaultValue("123") @QueryParam("id") Long id, @QueryParam("name") String name);
+    @Path("/update/{id}/{name}")
+    @Produces(MediaType.TEXT_PLAIN)
+    Response updateCustomer(@PathParam("id") Long id, @PathParam("name") String name);
 
     @POST
     @Path("/add/")
@@ -32,4 +33,9 @@ public interface CustomerService {
     @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
     @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
     Customer addCustomer(Customer customer);
+
+    @DELETE
+    @Path("/delete/{id}")
+    @Produces(MediaType.TEXT_PLAIN)
+    Response deleteCustomer(@PathParam("id") Long id);
 }
