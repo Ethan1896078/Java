@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ConcurrentSkipListSetDemo">
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ConcurrentSkipListSetDemo/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ConcurrentSkipListSetDemo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ConcurrentSkipListSetDemo/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

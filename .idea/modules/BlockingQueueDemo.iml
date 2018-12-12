@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/BlockingQueueDemo">
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/BlockingQueueDemo/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/BlockingQueueDemo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/BlockingQueueDemo/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

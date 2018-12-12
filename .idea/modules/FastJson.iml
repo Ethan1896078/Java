@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../FastJson">
       <excludeFolder url="file://$MODULE_DIR$/../../FastJson/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../FastJson/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FastJson/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

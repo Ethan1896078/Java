@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ThreadPoolExecutorDemo">
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ThreadPoolExecutorDemo/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ThreadPoolExecutorDemo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/ThreadPoolExecutorDemo/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

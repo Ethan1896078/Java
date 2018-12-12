@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/FutureDemo">
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/FutureDemo/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/FutureDemo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Java_SE_7/java/util/concurrent/FutureDemo/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

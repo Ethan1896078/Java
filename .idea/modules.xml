@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_main.iml" group="ConcurrentSkipListSetDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_test.iml" group="ConcurrentSkipListSetDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPattern.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPattern_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPattern_main.iml" group="DesignPattern" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPattern_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPattern_test.iml" group="DesignPattern" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel_main.iml" group="Excel" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel_test.iml" group="Excel" />
