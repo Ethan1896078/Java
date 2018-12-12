@@ -1,5 +1,9 @@
+import com.google.common.collect.Lists;
+
 import java.io.IOException;
 import java.text.ParseException;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * desc:
@@ -144,9 +148,123 @@ public class App {
 //                System.out.println(i1);
 //        }
 
-        System.out.println(1);
+//        Map<Integer, List<Customer>> map = Maps.newHashMap();
+//        for (int i = 0 ; i < 10 ; i++) {
+//            List<Customer> list = Lists.newArrayList();
+//            list.add(new Customer(i, "name" + i));
+//            list.add(new Customer(i + 1, "name" + i + 1));
+//            list.add(new Customer(i + 2, "name" + i + 2));
+//            System.out.println(JSON.toJSONString(list));
+//            map.put(i, list);
+//        }
+
+//        System.out.println(JSON.toJSONString(map));
+//
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        Date date = simpleDateFormat.parse("2017-05-31 18:00:00");
+//        Calendar calendar = Calendar.getInstance();
+//        calendar.setTime(date);
+//        System.out.println(calendar.get(Calendar.MONTH));
+//        System.out.println(calendar.get(Calendar.DATE));
+////        calendar.add(Calendar.MONTH, -1);
+////        System.out.println(calendar.get(Calendar.MONTH));
+////        System.out.println(calendar.get(Calendar.DATE));
+//        calendar.add(Calendar.MONTH, -2);
+//        System.out.println(calendar.get(Calendar.MONTH));
+//        System.out.println(calendar.get(Calendar.DATE));
 
 //        System.out.println(new Date().after(null));
+
+
+//        Calendar cal = Calendar.getInstance();
+//        cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
+//        cal.set(Calendar.HOUR_OF_DAY, 18);
+//        cal.set(Calendar.MINUTE, 0);
+//        cal.set(Calendar.SECOND, 0);
+//        String lastDayStr = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(cal.getTime());
+//        System.out.println(lastDayStr);
+//
+//        long beginTime = System.currentTimeMillis();
+//        System.out.println(beginTime);
+//        Thread.sleep(9000);
+//        long endTime = System.currentTimeMillis();
+//        System.out.println(endTime);
+//        System.out.println(endTime - beginTime);
+
+//        Calendar cal = Calendar.getInstance();
+//        cal.set(Calendar.DATE, 1);
+//        cal.set(Calendar.HOUR_OF_DAY, 18);
+//        cal.set(Calendar.MINUTE, 0);
+//        cal.set(Calendar.SECOND, 0);
+//        System.out.println(cal.getTime().getTime());
+//
+//        Map<String, Integer> map = Maps.newHashMap();
+//        map.put("b", 2);
+//        map.put("a", 1);
+//        map.put("c", 3);
+//        System.out.println("map:" + map);
+//
+//        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+//        System.out.println("set:" + entrySet);
+//
+//        List<Map.Entry<String, Integer>> list = Lists.newArrayList(entrySet);
+//        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
+//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+//                return o2.getValue().compareTo(o1.getValue());
+//            }
+//        });
+//        for (Map.Entry<String, Integer> entry : list) {
+//            System.out.println(entry);
+//        }
+
+//        System.out.println(System.currentTimeMillis());
+//        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2017-06-30 18:00:00").getTime());
+//        System.out.println(System.currentTimeMillis() - new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2017-06-29 15:40:48").getTime() > 10 * 60 * 1000l);
+//        System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(1498665600000l)));
+//
+//        long time1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2017-06-29 00:00:00").getTime();
+//        long time2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2017-06-30 00:00:00").getTime();
+//        System.out.println((time2 - time1) / 1000 / 60 / 60 / 24);
+//        DecimalFormat decimalFormat = new DecimalFormat("##0.00");
+//        System.out.println((decimalFormat.format(((float)632) / 300)));
+
+        List<Integer> list = Lists.newArrayList();
+        Collections.shuffle(list);
+
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        Collections.shuffle(list);
+
+        System.out.println(list.subList(0, 0));
+        System.out.println(list.subList(0, 1));
     }
 
+
+}
+
+class Customer {
+    private int id;
+    private String name;
+
+    public Customer(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

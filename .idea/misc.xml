@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/JAXRS/pom.xml" />
         <option value="$PROJECT_DIR$/JAXRS_SUB/pom.xml" />
         <option value="$PROJECT_DIR$/CloudService/pom.xml" />
+        <option value="$PROJECT_DIR$/FaceRecognition/pom.xml" />
+        <option value="$PROJECT_DIR$/AnyTest3/pom.xml" />
       </list>
     </option>
   </component>

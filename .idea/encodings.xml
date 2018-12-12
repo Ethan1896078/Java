@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/CloudService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CloudService/Reactive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FaceRecognition" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JAXRS" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JAXRS_SUB" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RESTClient" charset="UTF-8" />

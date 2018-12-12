@@ -6,4 +6,5 @@ package pers.ethan.demo;
  */
 public class Const {
     public static String IMAGE_FILE_PATH = "/Users/huangzhe/Documents/MyCode/Study/Java/OpenCVStudy/image/";
+    public static String RESOURCE_FILE_PATH = "/Users/huangzhe/Documents/MyCode/Study/Java/OpenCVStudy/resources/";
 }

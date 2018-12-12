@@ -22,6 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="AnyTest3" />
+        <module name="FaceRecognition" />
         <module name="JAXRS" />
         <module name="JAXRS_SUB" />
         <module name="Reactive" />
@@ -33,6 +35,7 @@
     <bytecodeTargetLevel>
       <module name="AnyTest2_main" target="1.5" />
       <module name="AnyTest2_test" target="1.5" />
+      <module name="AnyTest3" target="1.5" />
       <module name="BlockingQueueDemo_main" target="1.5" />
       <module name="BlockingQueueDemo_test" target="1.5" />
       <module name="CallableDemo_main" target="1.5" />
@@ -43,6 +46,10 @@
       <module name="CollectionsDemo_test" target="1.5" />
       <module name="ConcurrentSkipListSetDemo_main" target="1.7" />
       <module name="ConcurrentSkipListSetDemo_test" target="1.7" />
+      <module name="Excel_main" target="1.5" />
+      <module name="Excel_test" target="1.5" />
+      <module name="ExcelPoi" target="1.5" />
+      <module name="FaceRecognition" target="1.5" />
       <module name="FastJson_main" target="1.7" />
       <module name="FastJson_test" target="1.7" />
       <module name="FutureDemo_main" target="1.5" />

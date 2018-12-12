@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnyTest2.iml" filepath="$PROJECT_DIR$/.idea/modules/AnyTest2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnyTest2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AnyTest2_main.iml" group="AnyTest2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnyTest2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AnyTest2_test.iml" group="AnyTest2" />
+      <module fileurl="file://$PROJECT_DIR$/AnyTest3/AnyTest3.iml" filepath="$PROJECT_DIR$/AnyTest3/AnyTest3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_main.iml" group="BlockingQueueDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockingQueueDemo_test.iml" group="BlockingQueueDemo" />
@@ -18,6 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_main.iml" group="ConcurrentSkipListSetDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ConcurrentSkipListSetDemo_test.iml" group="ConcurrentSkipListSetDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel_main.iml" group="Excel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Excel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Excel_test.iml" group="Excel" />
+      <module fileurl="file://$PROJECT_DIR$/FaceRecognition/FaceRecognition.iml" filepath="$PROJECT_DIR$/FaceRecognition/FaceRecognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_main.iml" group="FastJson" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FastJson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FastJson_test.iml" group="FastJson" />
